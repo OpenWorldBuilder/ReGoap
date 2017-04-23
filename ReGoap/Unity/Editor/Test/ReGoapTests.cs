@@ -9,12 +9,12 @@ namespace ReGoap.Unity.Editor.Test
 {
     public class ReGoapTests
     {
-        [TestFixtureSetUp]
+        [OneTimeSetUp]
         public void Init()
         {
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void Dispose()
         {
         }
